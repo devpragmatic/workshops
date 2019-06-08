@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class MemoryBookService {
+public class MemoryBookService implements BookService{
     private List<Book> list;
     public MemoryBookService() {
         list = new ArrayList<>();
